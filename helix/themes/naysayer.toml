@@ -1,0 +1,32 @@
+# ~/.config/helix/themes/naysayer.toml
+"ui.background" = { fg = "textyellow", bg = "deepblue" }
+"ui.statusline" = { fg = "black", bg = "textyellow" }
+"ui.selection" = { fg = "white", bg = "blue" }
+
+# CRITICAL: Help popup scope (official Helix scope)
+"ui.help" = { bg = "deepblue", fg = "textyellow" }
+
+"ui.popup" = { bg = "deepblue", fg = "textyellow" }
+"ui.text.focus" = { bg = "deepblue", fg = "white" }
+"ui.menu" = { bg = "deepblue", fg = "textyellow" }
+
+# Syntax highlighting
+"keyword" = "white"
+"comment" = "commentgreen"
+"string" = "strings"
+"constant" = "constants"
+"type" = "commentgreen"
+
+"ui.linenr" = {fg = "linenumbers"}
+"ui.cursor" = { bg = "blue", fg = "textyellow" }
+
+[palette]
+textyellow = "#bbbbb1"
+deepblue = "#102625"
+white = "#ffffff"
+black = "#000000"
+blue = "#0000ff"
+commentgreen = "#44b340"
+strings = "#2ec09c"
+constants = "#7ad0c6"
+linenumbers = "#5ab0a6"

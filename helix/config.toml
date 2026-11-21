@@ -1,0 +1,9 @@
+theme = "naysayer"
+
+[keys.normal.space]
+w = ":toggle-option soft-wrap.enable"
+
+[editor]
+gutters = ["diagnostics", "spacer", "diff"]
+
+
