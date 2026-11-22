@@ -4,6 +4,6 @@ theme = "naysayer"
 w = ":toggle-option soft-wrap.enable"
 
 [editor]
-gutters = ["diagnostics", "spacer", "diff"]
+gutters = ["diagnostics", "spacer"]
 
 
